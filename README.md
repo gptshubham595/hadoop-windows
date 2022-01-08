@@ -13,7 +13,8 @@
 
 Followed ths steps
 
-<img src="./terminal run hadoop wordcounter.png">
+
+<img src="./terminal run hadoop wordcounter.png" width="1000px" height="auto" style="margin:10px;">
 
 
 ```

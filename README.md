@@ -6,11 +6,17 @@
  - Create data named folder inside hadoop or just copy folder there
  - make sure clusterID is same for namenode and datanode (see below if error occured)
  - If jar files missing then try below (NOT NEEDED ACTUALLY)
-       - download thirst.exe and put inside `C:\windows` then clone parquet-mr from github `https://github.com/apache/parquet-mr` in `D:\hadoop\share\hadoop\jars\`
-       - now using choco install make 
-       - download apache-maven `https://dlcdn.apache.org/maven/maven-3/3.8.4/binaries/apache-maven-3.8.4-bin.tar.gz`
-       - paste inside `d:\apache-maven` and insert this folder in environment path
-       - run `mvn clean install` inside parquet-mr folder 
+  
+     i) download thirst.exe and put inside `C:\windows` then clone parquet-mr from github `https://github.com/apache/parquet-mr` in `D:\hadoop\share\hadoop\jars\`
+
+     ii) now using choco install make 
+
+     iii) download apache-maven `https://dlcdn.apache.org/maven/maven-3/3.8.4/binaries/apache-maven-3.8.4-bin.tar.gz`
+
+     iv) paste inside `d:\apache-maven` and insert this folder in environment path
+
+     v) run `mvn clean install` inside parquet-mr folder 
+ 
  - Run start-dfs.cmd
  - Run start-yarn.cmd
  - Now create wordcount.jar with jdk 1.8 see code in tutorial apache 

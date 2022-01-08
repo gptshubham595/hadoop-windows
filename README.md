@@ -9,11 +9,11 @@
  - https://www.ncei.noaa.gov/pub/data/uscrn/products/daily01/2015/CRND0103-2015-TX_Austin_33_NW.txt
 
 
-<img src="./java code"> exported this as WordCounter.jar
+<img src="./java code.png"> exported this as WordCounter.jar
 
 Followed ths steps
 
-<img src="./terminal run hadoop wordcounter">
+<img src="./terminal run hadoop wordcounter.pnng">
 
 
 ```

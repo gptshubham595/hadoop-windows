@@ -13,7 +13,7 @@
 
 Followed ths steps
 
-<img src="./terminal run hadoop wordcounter.pnng">
+<img src="./terminal run hadoop wordcounter.png">
 
 
 ```

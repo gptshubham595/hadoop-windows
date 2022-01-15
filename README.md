@@ -1,5 +1,6 @@
 # hadoop-windows
   follow (
+     Download: https://drive.google.com/file/d/1B0MmDdEru9oSR3yRja3E5f5Gu818iV0g/view?usp=sharing
      
     I was also facing this same issue, so I removed everything and tried to install from scratch, To solve all issues regarding hadoop installation follow this
 

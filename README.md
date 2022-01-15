@@ -1,5 +1,16 @@
 # hadoop-windows
+  follow (
+     
+    I was also facing this same issue, so I removed everything and tried to install from scratch, To solve all issues regarding hadoop installation follow this
 
+    [https://muhammadbilalyar.github.io/blogs/How-to-install-Hadoop-on-Window-10/](url)
+
+    [![enter image description here][1]][1]
+
+    This blog solved all my issues
+
+    [1]: https://i.stack.imgur.com/rQVQi.png
+   )
  - simply download hadoop.tar.gz 
  - Now unzip using `tar -xvf hadoop.tar.gz`
  - Now copy bin folder files, sbin, jars(All files needed in eclipse)

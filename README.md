@@ -4,13 +4,12 @@
     I was also facing this same issue, so I removed everything and tried to install from scratch, To solve all issues regarding hadoop installation follow this
 
     [https://muhammadbilalyar.github.io/blogs/How-to-install-Hadoop-on-Window-10/](url)
-
-    [![enter image description here][1]][1]
+  
+  <img src="https://i.stack.imgur.com/rQVQi.png">
 
     This blog solved all my issues
-
-    [1]: https://i.stack.imgur.com/rQVQi.png
    )
+   
  - simply download hadoop.tar.gz 
  - Now unzip using `tar -xvf hadoop.tar.gz`
  - Now copy bin folder files, sbin, jars(All files needed in eclipse)
@@ -81,3 +80,31 @@ Followed ths steps
 
    Hadoop 2.x: $ hdfs namenode -format
 ```
+
+## SQOOP
+
+GRANT ALL PRIVILEGES ON *.* TO 'sqoop'@'localhost' IDENTIFIED BY 'sqoop' WITH GRANT OPTION;
+
+https://medium.com/analytics-vidhya/sqoop-how-to-install-in-5-steps-in-windows-10-ca2f17e11e75
+
+### my.ini
+
+At the end add this line:
+
+    default-time-zone = '+05:30'
+
+from the terminal run this command
+
+    >> sudo mysql -e "SET GLOBAL time_zone = ‘+5:30’;" -u root
+    >> sudo mysql -e "SELECT @@global.time_zone;" -u root
+
+If both of them do not work try using this request from sqoop using terminal
+
+    >> sqoop list-databases --connect "jdbc:mysql://localhost/employees?serverTimezone=UTC" --username sqoop -P
+
+Or you can just replace your request URL with this
+
+    jdbc:mysql://localhost/employees?serverTimezone=UTC
+
+
+   

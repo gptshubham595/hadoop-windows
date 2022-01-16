@@ -96,7 +96,7 @@ At the end add this line:
 
 from the terminal run this command
 
-    >> sudo mysql -e "SET GLOBAL time_zone = ‘+5:30’;" -u root
+    >> sudo mysql -e "SET GLOBAL time_zone = '+5:30';" -u root
     >> sudo mysql -e "SELECT @@global.time_zone;" -u root
 
 If both of them do not work try using this request from sqoop using terminal

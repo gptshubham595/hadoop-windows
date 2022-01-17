@@ -107,5 +107,7 @@ Or you can just replace your request URL with this
 
     jdbc:mysql://localhost/employees?serverTimezone=UTC
 
+https://community.cloudera.com/t5/Support-Questions/Hive-Metastore-initialization-fail/td-p/270124
+
 
    

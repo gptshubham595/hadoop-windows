@@ -110,4 +110,4 @@ Or you can just replace your request URL with this
 https://community.cloudera.com/t5/Support-Questions/Hive-Metastore-initialization-fail/td-p/270124
 
 
-   
+   hive --service schematool -dbType mysql -password hive -username hive -validate
